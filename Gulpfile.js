@@ -12,7 +12,6 @@ function clean() {
 
 var myReporter = mapstream(function (file, cb) {
     if (!file.jshint.success) {
-        console.log('[ ' + file.jshint.results.length + ' errors in ]' + file.path);
         let errString = [];
         file.jshint.results.forEach(function (err) {
             /*
@@ -22,7 +21,6 @@ var myReporter = mapstream(function (file, cb) {
             */
             if (err && err.error) {
                 let error = err.error;
-                console.log(error)
                 errString.push(`${file.path}: line ${error.line}, col ${error.character}, code ${error.evidence.trim()}, ${error.reason}`);
             }
         });
