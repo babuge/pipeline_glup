@@ -1,0 +1,3 @@
+D:\github\babuge\pipeline_gulp\src\main.js: line 1, col 1, code 'use strict';, Use the function form of "use strict".
+D:\github\babuge\pipeline_gulp\src\main.js: line 13, col 3, code }), Missing semicolon.
+D:\github\babuge\pipeline_gulp\src\main.js: line 3, col 1, code angular.module("workflow",[]), 'angular' is not defined.

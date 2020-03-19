@@ -1,0 +1,25 @@
+{
+  "name": "pipeline_gulp",
+  "homepage": "https://github.com/babuge/pipeline_gulp",
+  "authors": [
+    "Houdung <987321144@qq.com>"
+  ],
+  "description": "angular",
+  "main": "",
+  "keywords": [
+    "angularjs",
+    "gulp"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.9"
+  }
+}

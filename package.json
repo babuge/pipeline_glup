@@ -1,0 +1,31 @@
+{
+  "name": "pipeline_gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-html-postcss": "^7.1.4",
+    "gulp-htmlhint": "^3.0.0",
+    "gulp-jshint": "^2.1.0",
+    "map-stream": "0.0.7"
+  },
+  "scripts": {
+    "gulp-task": "gulp --task",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babuge/pipeline_gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babuge/pipeline_gulp/issues"
+  },
+  "homepage": "https://github.com/babuge/pipeline_gulp#readme"
+}
