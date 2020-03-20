@@ -1,0 +1,7 @@
+js D:\github\babuge\pipeline_gulp\src\main.js: line 1, col 1, code 'use strict';, Use the function form of "use strict".
+js D:\github\babuge\pipeline_gulp\src\main.js: line 13, col 3, code }), Missing semicolon.
+js D:\github\babuge\pipeline_gulp\src\main.js: line 3, col 1, code angular.module("workflow",[]), 'angular' is not defined.
+css D:\github\babuge\pipeline_gulp\src\main.css: line 1, col 1, code .content>.test{, Rule doesn't have all its properties in alphabetical order.
+css D:\github\babuge\pipeline_gulp\src\main.css: line 3, col 5, code width: 50px;, width can't be used with display: inline.
+css D:\github\babuge\pipeline_gulp\src\main.css: line 4, col 5, code height: 50px;, height can't be used with display: inline.
+css D:\github\babuge\pipeline_gulp\src\main.css: line 5, col 5, code float: left;, display:inline has no effect on floated elements (but may be used to fix the IE6 double-margin bug).
